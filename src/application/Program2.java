@@ -36,6 +36,11 @@ public class Program2 {
 		departmentDao.deleteById(id);
 		System.out.println("Department deleted!");
 		
+		System.out.println("\n=== TEST 5: department update ===");
+		Department dep2 = departmentDao.findById(1);
+		dep2.setName("Music");
+		departmentDao.update(dep2);
+		System.out.println("Depertment updated!");
 		
 		
 		sc.close();
