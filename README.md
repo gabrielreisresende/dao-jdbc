@@ -1,4 +1,6 @@
 # Crud - JDBC
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/gabrielreisresende/dao-jdbc/blob/main/LICENSE)
+
 Programa que realiza um CRUD uilizando JDBC no MYSQL contendo dados de vendedores e seus respectivos departamentos.
 
 ### Tecnlogias utilizadas:
